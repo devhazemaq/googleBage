@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    align-items: center;
+}
+header svg {
+
+    height: 35px;
+}
+header img {
+    border-radius: 50%;
+}
