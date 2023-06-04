@@ -20,6 +20,7 @@ main .contaner {
     align-items: center;
     /* padding: 0 17px; */
     padding-top: 50px;
+    height: 73vh;
 }
 
 
@@ -49,4 +50,24 @@ main .two-buttons a {
     text-decoration: none;
     font-weight: bold;
 
+}
+
+footer p {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.group-links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.group-one,
+.group-two {
+    display: flex;
+    gap: 22px;
+}
+
+.group-links a {
+    color: #a79c9c;
+    text-decoration: none;
 }
