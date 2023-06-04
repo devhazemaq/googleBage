@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(53, 54, 58);
+}
+
 header {
     display: flex;
     gap: 1.5rem;
@@ -26,12 +30,12 @@ main .contaner {
 
 main h2 {
     font-size: 3rem;
-    color: rebeccapurple;
+    color: white;
     margin-bottom: 15px;
 }
 
 main .iput-serch {
-    border: 2px solid blue;
+    border: 2px solid whitesmoke;
     border-radius: 30px;
     padding: 0 8px;
     width: fit-content;
@@ -45,13 +49,24 @@ main .iput-serch input {
 }
 
 main .two-buttons a {
-    border: 2px solid red;
+    border: 1px solid white;
     padding: 8px;
     text-decoration: none;
     font-weight: bold;
+    color: #888b90;
+    background-color: #303135;
 
 }
+main .aribc {
+    color: #888b90 ;
+}
+main .aribc a{
+    color: #516687 ;
+}
 
+/* footer  {
+    background-color: #181818;
+} */
 footer p {
     margin-bottom: 5px;
     font-size: 15px;
