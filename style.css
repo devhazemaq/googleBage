@@ -46,6 +46,11 @@ main .iput-serch input {
     border: none;
     width: 18rem;
     height: 1.5rem;
+    background-color: rgb(53, 54, 58);
+}
+
+main .iput-serch i {
+    color: white;
 }
 
 main .two-buttons a {
@@ -85,4 +90,11 @@ footer p {
 .group-links a {
     color: #a79c9c;
     text-decoration: none;
+    font-size: 15px;
+}
+
+@media (max-width: 565px) {
+    .group-links .group-two {
+        display: none;
+    }
 }
